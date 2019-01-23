@@ -1,0 +1,5 @@
+12-Dec-2018 11:32:35.556 INFOS [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+12-Dec-2018 11:32:35.556 INFOS [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+12-Dec-2018 11:32:35.649 INFOS [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@565d68f9')
+12-Dec-2018 11:58:21.539 INFOS [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+12-Dec-2018 11:58:21.539 INFOS [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

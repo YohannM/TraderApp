@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+ 
+    <listener>
+      <listener-class>dao.DataSource</listener-class>
+    </listener>
+    <servlet>
+        <servlet-name>home</servlet-name>
+        <jsp-file>/home.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>home</servlet-name>
+        <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SuperController</servlet-name>
+        <url-pattern>/Trader</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <display-name>ServletListenerExample</display-name>
+
+    <context-param>
+      <param-name>DBUSER</param-name>
+      <param-value>p1700402</param-value>
+    </context-param>
+    <context-param>
+      <param-name>DBPWD</param-name>
+      <param-value>294357</param-value>
+    </context-param>
+    <context-param>
+      <param-name>DBURL</param-name>
+      <param-value>iutdoua-web.univ-lyon1.fr</param-value>
+    </context-param>
+    <context-param>
+      <param-name>DBPORT</param-name>
+      <param-value>3306</param-value>
+    </context-param>
+    <context-param>
+      <param-name>DBNAME</param-name>
+      <param-value>p1700402</param-value>
+    </context-param>
+
+    
+    
+</web-app>
